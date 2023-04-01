@@ -1,16 +1,16 @@
 
 body {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
     margin: 0;
-    background-color: gray;
+    background-color: rgb(255, 254, 254);
 
 }
 .grid-square {
-    width: 20px;
-    height: 20px;
+
     border: 1px solid rgb(0, 0, 0);
     box-sizing: border-box;
 }
@@ -21,4 +21,36 @@ body {
     height: 320px;
     background-color: azure;
     flex-wrap: wrap;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.5);
+    
+}
+#btn {
+    cursor: pointer;
+    padding: 10px 32px;
+    border: 1 solid black;
+    border-radius: 5px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 16px;
+    align-self: stretch;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 16px;
+    align-self: stretch;
 }
