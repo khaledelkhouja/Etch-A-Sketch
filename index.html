@@ -10,7 +10,16 @@
 </head>
 <body>
     <header><h1>Etch-A-Sketch</h1></header>
-    <button id="btn">Set Grid size</button>
+    <div>
+        <button id="btn1">Default</button>
+        <button id="btn2">Rainbow</button>
+        <button id="btn3">Clear</button>
+    </div>
+    <form action="">
+        <div><output id="value" class="output">16</output></div>
+        <input type="range" name="size" id="size" min="1" max="64" value="16" class="slider">
+        
+    </form>
     <div class="container" id="container"></div>
     <footer class="footer">Copyright © The Odin Project 2023</footer>
 </body>
